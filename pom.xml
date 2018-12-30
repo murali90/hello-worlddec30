@@ -161,17 +161,16 @@
       </plugins>
     </pluginManagement>
   </build>
-
 <distributionManagement>
     <repository>
         <id>central</id>
         <name>centos7-releases</name>
-        <url>http://jfrogarti:8081/artifactory/example-repo-local</url>
+        <url>http://jfrogarti:8081/artifactory/webapp/#/artifacts/browse/tree/General/murali</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>centos7-snapshots</name>
-        <url>http://jfrogarti:8081/artifactory/example-repo-local</url>
+        <url>http://jfrogarti:8081/artifactory/webapp/#/artifacts/browse/tree/General/murali</url>
     </snapshotRepository>
 </distributionManagement>
   <dependencyManagement>
